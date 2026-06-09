@@ -33,13 +33,13 @@ export function Navigation() {
       >
         <nav className={`px-8 py-3 rounded-full transition-all duration-500 ${
           isScrolled 
-            ? 'glass-nav' 
+            ? 'bg-[#0a0a0a]/90 backdrop-blur-2xl border border-white/[0.08] shadow-2xl shadow-black/50' 
             : 'glass-nav'
         }`}>
           <div className="flex items-center gap-12">
             <motion.a
               href="#"
-              className="text-lg font-medium text-foreground tracking-tight"
+              className="text-lg font-semibold text-foreground tracking-tight"
               whileHover={{ opacity: 0.7 }}
               transition={{ duration: 0.2 }}
             >
@@ -52,7 +52,7 @@ export function Navigation() {
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
+                    className="text-sm text-white/70 hover:text-white transition-colors duration-300 font-medium"
                   >
                     {link.name}
                   </a>

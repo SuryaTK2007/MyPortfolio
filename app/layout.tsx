@@ -16,21 +16,21 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Surya TK | Backend & Cloud Engineer',
-  description: 'Backend & Cloud Engineer specializing in scalable systems, cloud infrastructure, and distributed architectures. Building production-ready software with Go, Spring Boot, and AWS.',
-  keywords: ['Backend Engineer', 'Cloud Engineer', 'AWS', 'Spring Boot', 'Go', 'DevOps', 'Distributed Systems'],
+  title: 'Surya TK | Full Stack Developer',
+  description: 'Full Stack Developer with a passion for cloud infrastructure and DevOps. Building production-ready applications with React, Spring Boot, Go, and AWS.',
+  keywords: ['Full Stack Developer', 'Cloud Engineer', 'DevOps', 'AWS', 'Spring Boot', 'React', 'Go', 'Next.js'],
   authors: [{ name: 'Surya TK' }],
   creator: 'Surya TK',
   openGraph: {
-    title: 'Surya TK | Backend & Cloud Engineer',
-    description: 'Backend & Cloud Engineer specializing in scalable systems, cloud infrastructure, and distributed architectures.',
+    title: 'Surya TK | Full Stack Developer',
+    description: 'Full Stack Developer with a passion for cloud infrastructure and DevOps.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Surya TK | Backend & Cloud Engineer',
-    description: 'Backend & Cloud Engineer specializing in scalable systems, cloud infrastructure, and distributed architectures.',
+    title: 'Surya TK | Full Stack Developer',
+    description: 'Full Stack Developer with a passion for cloud infrastructure and DevOps.',
   },
   robots: {
     index: true,
