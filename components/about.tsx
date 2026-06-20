@@ -69,9 +69,9 @@ export function About() {
                 className="grid grid-cols-3 gap-6 pt-8 border-t border-border"
               >
                 {[
-                  { value: "325+", label: "LeetCode" },
+                  { value: "350+", label: "LeetCode" },
                   { value: "3", label: "Hackathons Won" },
-                  { value: "2", label: "Projects Live" },
+                  { value: "5+", label: "Certifications" },
                 ].map((stat, index) => (
                   <motion.div
                     key={stat.label}

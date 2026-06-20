@@ -26,6 +26,21 @@ const certifications = [
     issuer: "Frontend Masters",
     color: "from-sky-500/20 to-sky-500/0",
   },
+  {
+    title: "Complete react v9",
+    issuer: "Frontend Masters",
+    color: "from-yellow-500/20 to-yellow-500/0",
+  },
+  {
+    title: "Complete intro to containers v2",
+    issuer: "Frontend Masters",
+    color: "from-rose-500/20 to-rose-500/0",
+  },
+  {
+    title: "Design thinking - A primer course",
+    issuer: "NPTEL",
+    color: "from-emerald-500/20 to-emerald-500/0",
+  }
 ]
 
 export function Certifications() {

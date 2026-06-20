@@ -10,7 +10,7 @@ const profiles = [
     name: "LeetCode",
     stats: [
       { label: "Max Rating", value: "1560" },
-      { label: "Problems", value: "325+" },
+      { label: "Problems", value: "350+" },
     ],
     url: "https://leetcode.com/suryatk",
     gradient: "from-amber-500/20 via-yellow-500/10 to-transparent",
@@ -25,7 +25,7 @@ const profiles = [
   },
   {
     name: "SkillRack",
-    stats: [{ label: "Problems", value: "1457+" }],
+    stats: [{ label: "Problems", value: "1450+" }],
     url: "https://www.skillrack.com/faces/resume.xhtml?id=515098&key=4e1897f604408303154b382d2b5170e8e63c9a45",
     gradient: "from-blue-500/20 via-sky-500/10 to-transparent",
     accent: "text-sky-400",
