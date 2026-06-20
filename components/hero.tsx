@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { ArrowDown, Sparkles, MapPin } from 'lucide-react'
+import { ArrowDown, Sparkles, MapPin, Download } from 'lucide-react'
 import { GithubIcon, LinkedinIcon } from './icons'
 
 export function Hero() {
@@ -164,6 +164,14 @@ export function Hero() {
                 className="px-8 py-4 glass-chip rounded-full font-medium text-foreground hover:bg-white/[0.12] transition-all duration-500"
               >
                 Get in Touch
+              </a>
+              <a
+                href="/resume.pdf"
+                download="Surya_TK_Resume.pdf"
+                className="px-8 py-4 glass-chip rounded-full font-medium text-foreground hover:bg-white/[0.12] transition-all duration-500 flex items-center gap-2"
+              >
+                <Download className="w-4 h-4" />
+                Resume
               </a>
             </motion.div>
 
