@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { motion } from 'framer-motion'
-import { ArrowDown, Sparkles, MapPin, Download } from 'lucide-react'
-import { GithubIcon, LinkedinIcon } from './icons'
+import { motion } from "framer-motion";
+import { ArrowDown, Sparkles, MapPin, Download } from "lucide-react";
+import { GithubIcon, LinkedinIcon } from "./icons";
 
 export function Hero() {
   return (
@@ -12,7 +12,8 @@ export function Hero() {
         <motion.div
           className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, transparent 70%)",
+            background:
+              "radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, transparent 70%)",
           }}
           animate={{
             x: [0, 80, 0],
@@ -27,7 +28,8 @@ export function Hero() {
         <motion.div
           className="absolute bottom-[-20%] right-[-10%] w-[500px] h-[500px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(167, 139, 250, 0.08) 0%, transparent 70%)",
+            background:
+              "radial-gradient(circle, rgba(167, 139, 250, 0.08) 0%, transparent 70%)",
           }}
           animate={{
             x: [0, -60, 0],
@@ -42,7 +44,8 @@ export function Hero() {
         <motion.div
           className="absolute top-[40%] right-[20%] w-[300px] h-[300px] rounded-full"
           style={{
-            background: "radial-gradient(circle, rgba(99, 102, 241, 0.06) 0%, transparent 70%)",
+            background:
+              "radial-gradient(circle, rgba(99, 102, 241, 0.06) 0%, transparent 70%)",
           }}
           animate={{
             x: [0, -30, 0],
@@ -62,7 +65,7 @@ export function Hero() {
         className="absolute inset-0 opacity-[0.015]"
         style={{
           backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
-          backgroundSize: '60px 60px',
+          backgroundSize: "60px 60px",
         }}
       />
 
@@ -127,7 +130,9 @@ export function Hero() {
               className="flex items-center gap-1.5 justify-center mb-8"
             >
               <MapPin className="w-3.5 h-3.5 text-muted-foreground" />
-              <span className="text-sm text-muted-foreground">Coimbatore, India</span>
+              <span className="text-sm text-muted-foreground">
+                Coimbatore, India
+              </span>
             </motion.div>
 
             {/* Description */}
@@ -137,8 +142,9 @@ export function Hero() {
               transition={{ delay: 0.7, duration: 0.6 }}
               className="text-lg text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed"
             >
-              I build full stack applications with a passion for cloud infrastructure 
-              and DevOps. Focused on performance, reliability, and elegant engineering.
+              I build full stack applications with a passion for cloud
+              infrastructure and DevOps. Focused on performance, reliability,
+              and elegant engineering.
             </motion.p>
 
             {/* CTA Buttons */}
