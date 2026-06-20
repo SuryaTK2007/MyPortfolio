@@ -9,7 +9,7 @@ const achievements = [
   {
     position: "1st Place",
     title: "Freshathon Hackathon",
-    description: "Won first place among 200+ participants",
+    // description: "Won first place among 200+ participants",
     icon: Trophy,
     gradient: "from-amber-500/20 to-amber-500/0",
     ring: "ring-amber-500/20",
@@ -17,7 +17,7 @@ const achievements = [
   {
     position: "1st Place",
     title: "SelfE Hackathon",
-    description: "First place for self-improvement application",
+    // description: "First place for self-improvement application",
     icon: Trophy,
     gradient: "from-amber-500/20 to-amber-500/0",
     ring: "ring-amber-500/20",
@@ -25,7 +25,7 @@ const achievements = [
   {
     position: "3rd Place",
     title: "Creatathon Hackathon",
-    description: "Bronze medal for innovative solution",
+    // description: "Bronze medal for innovative solution",
     icon: Medal,
     gradient: "from-orange-500/15 to-orange-500/0",
     ring: "ring-orange-500/20",
@@ -76,9 +76,6 @@ export function Achievements() {
                 <h3 className="text-lg font-medium text-foreground mb-2">
                   {achievement.title}
                 </h3>
-                <p className="text-sm text-muted-foreground">
-                  {achievement.description}
-                </p>
               </div>
             </motion.div>
           ))}
